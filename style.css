@@ -1,3 +1,33 @@
 body {
     background-color: aqua;
+    float: left;
+}
+p {
+    color: rebeccapurple;
+    /* 1 */
+}
+.par {
+    color: blanchedalmond;
+       /* 10 */
+}
+.spechial.par {
+    color: chocolate;
+}
+#sp-id {
+    color: blue;
+    font-weight: 400;
+    /* 100 */
+
+}
+.list {
+    padding: 5px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+.list .list-item {
+    color: cadetblue;
+}
+/* elementy vnytri list  */
+.list-item:last-child {
+    color: crimson;
 }
